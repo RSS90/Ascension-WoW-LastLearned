@@ -45,7 +45,7 @@ local function ShowLogWindow()
 
 			-- Erstelle ein Label für den Reload-Button
 			local rlLabel = AceGUI:Create("Label")
-			rlLabel:SetText("To display the history you have to reload the UI after using your scroles.")
+			rlLabel:SetText("To display the history you have to reload the UI after using your scrolls.")
 			rlLabel:SetRelativeWidth(0.8)
 			rlbar:AddChild(rlLabel)
 			
